@@ -1,83 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="ANZAR ENTERPRISES - Hardware, Plastic and Electrical products.">
-  <title>ANZAR ENTERPRISES | Hardware • Plastic • Electrical</title>
-  <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="ANZAR ENTERPRISES - Hardware, Plastic, Electrical and Bartan products in Kishanganj, Bihar.">
+<title>ANZAR ENTERPRISES | Hardware • Plastic • Electrical</title>
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header class="hero">
-    <nav>
-      <div class="logo">ANZAR <span>ENTERPRISES</span></div>
-      <a class="nav-btn" href="#contact">Contact</a>
-    </nav>
-    <div class="hero-content">
-      <p class="eyebrow">YOUR TRUSTED LOCAL STORE</p>
-      <h1>Hardware. Plastic.<br><span>Electrical.</span></h1>
-      <p class="intro">Quality products for home, shop and construction needs — all in one place.</p>
-      <div class="actions">
-        <a class="btn primary" href="tel:+917250771634">📞 Call Now</a>
-        <a class="btn whatsapp" href="https://wa.me/917250771634" target="_blank" rel="noopener">💬 WhatsApp</a>
-      </div>
-    </div>
-  </header>
+<header class="hero" id="home">
+<nav class="nav">
+<div class="brand">ANZAR <span>ENTERPRISES</span></div>
+<div class="nav-links"><a href="#products">Products</a><a href="#about">About</a><a href="#contact">Contact</a></div>
+</nav>
+<div class="hero-content">
+<p class="eyebrow">YOUR TRUSTED LOCAL SHOP</p>
+<h1>Hardware. Plastic.<br><span>Electrical.</span></h1>
+<p class="intro">Quality products for your home, shop and everyday needs.</p>
+<div class="actions">
+<a class="btn primary" href="tel:7250771634">📞 Call 7250771634</a>
+<a class="btn whatsapp" href="https://wa.me/9241175216" target="_blank" rel="noopener">💬 WhatsApp Us</a>
+</div>
+</div>
+</header>
 
-  <main>
-    <section class="section">
-      <div class="section-title">
-        <p class="eyebrow">WHAT WE OFFER</p>
-        <h2>Everything you need, under one roof.</h2>
-      </div>
-      <div class="cards">
-        <article class="card"><div class="icon">🔧</div><h3>Hardware</h3><p>Useful hardware items for home, repair and construction work.</p></article>
-        <article class="card"><div class="icon">🪣</div><h3>Plastic</h3><p>Everyday plastic products for home, shop and general use.</p></article>
-        <article class="card"><div class="icon">💡</div><h3>Electrical</h3><p>Electrical essentials for everyday installation and maintenance needs.</p></article>
-      </div>
-    </section>
+<main>
+<section class="categories" id="products">
+<div class="section-heading"><p class="eyebrow">OUR PRODUCTS</p><h2>Everything You Need in One Place</h2><p>Browse our main product categories.</p></div>
+<div class="category-grid">
+<a class="category-card" href="#bartan"><div class="category-icon">🍽️</div><h3>Bartan</h3><p>Peetal, silver, stainless steel, copper & kitchenware</p></a>
+<a class="category-card" href="#plastic"><div class="category-icon">🪣</div><h3>Plastic</h3><p>Daily-use plastic items, buckets, tubs, sheets & more</p></a>
+<a class="category-card" href="#hardware"><div class="category-icon">🔧</div><h3>Hardware</h3><p>Chapakal, motors, tools, nuts, bolts, pipes & more</p></a>
+<a class="category-card" href="#electrical"><div class="category-icon">⚡</div><h3>Electrical</h3><p>Lights, wires, switches, fans, coolers & accessories</p></a>
+</div>
+</section>
 
-    <section class="about section">
-      <div>
-        <p class="eyebrow">ABOUT US</p>
-        <h2>ANZAR ENTERPRISES</h2>
-        <p>We bring Hardware, Plastic and Electrical products together so customers can find everyday essentials conveniently at one shop.</p>
-        <p class="muted">For product availability, pricing or bulk requirements, call or WhatsApp us directly.</p>
-      </div>
-      <div class="highlight">
-        <strong>3</strong>
-        <span>Product categories</span>
-        <strong>2</strong>
-        <span>Contact numbers</span>
-      </div>
-    </section>
+<section class="gallery-section">
+<div class="section-heading"><p class="eyebrow">PRODUCT GALLERY</p><h2>Our Product Range</h2><p>Tap any image to view it larger.</p></div>
+<div class="gallery-grid">
+<article class="product-card" id="bartan"><img src="bartan.jpg" alt="ANZAR ENTERPRISES Bartan products" onclick="openImage(this.src)"><div class="product-info"><h3>🍽️ Bartan Items</h3><p>Peetal • Silver • Stainless Steel • Copper • Kitchenware</p></div></article>
+<article class="product-card" id="plastic"><img src="plastic.jpg" alt="ANZAR ENTERPRISES Plastic products" onclick="openImage(this.src)"><div class="product-info"><h3>🪣 Plastic Products</h3><p>Buckets • Daily-use items • Tarpaulin • Lailun • Plastic sheets</p></div></article>
+<article class="product-card" id="hardware"><img src="hardware.jpg" alt="ANZAR ENTERPRISES Hardware products" onclick="openImage(this.src)"><div class="product-info"><h3>🔧 Hardware Products</h3><p>Chapakal • Motors • Tools • Nuts & bolts • Pipes • Building items</p></div></article>
+<article class="product-card" id="electrical"><img src="electrical.jpg" alt="ANZAR ENTERPRISES Electrical products" onclick="openImage(this.src)"><div class="product-info"><h3>⚡ Electrical Products</h3><p>Lights • Wires • Switches • Fans • Coolers • Electrical accessories</p></div></article>
+</div>
+</section>
 
-    <section class="contact section" id="contact">
-      <div class="section-title">
-        <p class="eyebrow">GET IN TOUCH</p>
-        <h2>Visit or contact us</h2>
-      </div>
-      <div class="contact-grid">
-        <div class="contact-card">
-          <h3>📞 Phone</h3>
-          <a href="tel:+917250771634">7250771634</a>
-          <a href="tel:+919241175216">9241175216</a>
-        </div>
-        <div class="contact-card">
-          <h3>📍 Location</h3>
-          <p>Find ANZAR ENTERPRISES on Google Maps.</p>
-          <a class="map-link" href="https://maps.app.goo.gl/haw6WRqVf1c9F115A?g_st=ac" target="_blank" rel="noopener">Open in Google Maps →</a>
-        </div>
-      </div>
-    </section>
-  </main>
+<section class="about" id="about">
+<div><p class="eyebrow">WHY ANZAR ENTERPRISES</p><h2>Quality Products. Reliable Service.</h2><p>We provide a wide range of hardware, plastic, electrical and household products for everyday needs.</p></div>
+<div class="features"><div>✓ Wide range of products</div><div>✓ Quality-focused service</div><div>✓ Reasonable prices</div><div>✓ Local trusted shop</div></div>
+</section>
 
-  <footer>
-    <div class="logo">ANZAR <span>ENTERPRISES</span></div>
-    <p>Hardware • Plastic • Electrical</p>
-    <p class="copyright">© 2026 ANZAR ENTERPRISES. All rights reserved.</p>
-  </footer>
+<section class="contact" id="contact">
+<p class="eyebrow">CONTACT US</p><h2>Need Something? Get in Touch.</h2><p>📍 Kishanganj, Bihar</p>
+<div class="contact-buttons"><a class="btn primary" href="tel:7250771634">📞 Call: 7250771634</a><a class="btn whatsapp" href="https://wa.me/9241175216" target="_blank" rel="noopener">💬 WhatsApp: 9241175216</a></div>
+</section>
+</main>
 
-  <a class="floating-wa" href="https://wa.me/917250771634" target="_blank" rel="noopener" aria-label="Chat on WhatsApp">💬</a>
+<footer><div class="brand">ANZAR <span>ENTERPRISES</span></div><p>HARDWARE • PLASTIC • ELECTRICAL</p><p>© 2026 ANZAR ENTERPRISES • Kishanganj, Bihar</p></footer>
+<div class="lightbox" id="lightbox" onclick="closeImage()"><img id="lightbox-img" src="" alt="Product preview"></div>
+<script>
+function openImage(src){document.getElementById("lightbox-img").src=src;document.getElementById("lightbox").classList.add("show")}
+function closeImage(){document.getElementById("lightbox").classList.remove("show")}
+</script>
 </body>
 </html>
